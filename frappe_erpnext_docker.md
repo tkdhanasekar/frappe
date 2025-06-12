@@ -93,4 +93,5 @@ docker compose --project-name erpnext-one exec backend   bench new-site erp1.has
 ```
 docker compose --project-name erpnext-one exec backend   bench new-site erp2.hashlabs.in --mariadb-root-password StrongPassw0rd --install-app erpnext --admin-password StrongPassw0rd
 ```
-
+reference : https://frappedevops.hashnode.dev/a-step-by-step-guide-to-running-frappe-erpnext-system-in-docker-containers
+            https://github.com/frappe/frappe_docker/blob/main/docs/setup-options.md
